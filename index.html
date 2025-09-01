@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<main>
+    <header>
+        <h1>User Registration Form</h1>
+    </header>
+    <form action="">
+<fieldset>
+    <legend>Personal Information</legend>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" required>
+
+    <br><br>
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname" required>
+    <br><br>
+    <label for="date">Date of Birth:</label>
+    <input type="date" id="date" name="date" required><br><br>
+    <label for="age">Age</label>
+    <input type="number" id="age" name="age" min="18"><br><br>
+
+    <label for="gender">Gender</label><br>
+    <input type="radio" name="gender" id="Male" value="Male">Male<br>
+    <input type="radio" name="gender" id="Female" value="Female">Female<br><br>
+    <label for="profile photo">Profile Photo:</label>
+    <input type="file" name="profile photo" id="profile photo"><br><br>
+
+</fieldset>
+<fieldset>
+    <legend>
+        Contact & Address Information
+    </legend>
+    <label for="email">Email Address:</label>
+    <input type="email" name="email" id="email"><br><br>
+    <label for="phone number">Phone Number:</label>
+    <input type="tel" name="phone number" id="phhone number"><br><br>
+    <label for="website">Personal Website:</label>
+    <input type="url" name="website" id="website" placeholder="https://example.com"><br><br>
+    <label for="street Address">street address:</label>
+    <input type="text" name="street address" id="street address"><br><br>
+    <label for="city">city:</label>
+    <input type="text" name="city" id="city"><br><br>
+    <label for="country" >country:</label>
+    <select name="country" id="country" >
+        <option value="">Select Country</option>
+        <option value="kenya">Kenya</option>
+        <option value="uganda">Uganda</option>
+        <option value="ethiopia">Ethiopia</option>
+        <option value="tanzania">Tanzania</option>
+        <option value="somalia">Somalia</option>
+        <option value="china">China</option>
+    </select><br><br>
+    <label for="zip">Zip/postal code:</label>
+    <input type="text" name="zip" id="zip"><br><br>
+    <label for="time">Preferred Contact time</label>
+    <input type="time" name="time" id="time"><br><br>
+
+</fieldset>
+<fieldset>
+    <legend>
+        Preferences & Interests
+    </legend>
+    <label for="color">Favorite color:</label>
+    <input type="color" name="color" id="color"><br><br>
+    <label for="level">Experience level (1-10):</label>
+    <input type="range" name="level" id="level"><br><br>
+    <label for="month">Birth Month:</label>
+    <input type="month" name="month" id="month"><br><br>
+    <label for="week">Available Week:</label>
+    <input type="week" name="week" id="week"><br><br>
+    <label for="search">Search Keywords:</label>
+    <input type="search" name="search" id="search" placeholder="Enter Keywords"><br><br>
+    <label for="Interests">Interests(Select all that apply):</label><br>
+    <input type="checkbox" name="Interests" id="Interests">Technology<br>
+    <input type="checkbox" name="Interests" id="Interests">Sports <br>
+    <input type="checkbox" name="Interests" id="Interests">Music <br>
+    <input type="checkbox" name="Interests" id="Interests">Travel <br>
+    <input type="checkbox" name="Interests" id="Interests">Reading <br>
+    <input type="checkbox" name="Interests" id="Interests">Cooking <br><br>
+    <label for="level">Educational Level:</label>
+    <select name="level" id="level">
+        <option value="">Select Education Level</option>
+        <option value="secondary">Secondary</option>
+        <option value="primary">Primary</option>
+        <option value="university">University</option>
+
+    </select><br><br>
+    <label for="password">Current Password</label>
+    <input type="password" name="password" id="password"><br><br>
+    <label for="password">Confirm Password</label>
+    <input type="password" name="password" id="password"><br><br>
+</fieldset>
+        
+<fieldset>
+    <legend>
+        Feedback & Additional Information
+    </legend>
+    <label for="about">Tell us about yourself:</label><br>
+    <textarea name="about" id="about" rows="6" cols="50" placeholder="Write a brief description about yourself..."></textarea>
+    <br><br>
+    <label for="suggestion">Suggestion for improvement:</label><br>
+    <textarea name="suggestion" id="suggestion" role="4" cols="50" placeholder="Any suggestion or feedback..."></textarea><br><br>
+    <label for="Registration">Registration Date & Time:</label>
+    <input type="datetime-local" name="Registration" id="Registration"><br><br>
+    <label for="hear">How did you hear about us?</label>
+    <select name="hear" id="hear">
+        <option value="">Select Source</option>
+        <option value="google">Google</option>
+        <option value="friend">Friend</option>
+        <option value="youtube">YouTube</option>
+    </select><br><br>
+    <label for="upload">Upload Resume (optional):</label>
+    <input type="file" name="upload" id="upload">
+    <br><br>
+    <input type="checkbox" name="subscribe" id="subscribe">Subscribe to our newsletter <br><br>
+    <input type="checkbox" name="termbs" id="terms">I agree to the terms and conditions <br><br>
+    <input type="checkbox" name="policy" id="policy">I agree to the privacy policy <br><br>
+    </fieldset><br><br>
+    <input type="button" value="Register"> 
+    <input type="reset" value="Clear Form">
+    </form>
+    </main>
+    </html>
